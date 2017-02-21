@@ -1,0 +1,22 @@
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.*;
+public class stack1
+{
+	public static void main(String args[])
+	{
+	Stack s1 = new Stack();
+	s1.push(12);
+	s1.push(24);
+	s1.push(48);
+	s1.push(96);
+	System.out.println("Stack is "+ s1);
+	System.out.println("Top of Stack is "+ s1.peek());	
+	s1.pop();
+	s1.pop();
+	System.out.println("After 2 pop Stack is "+ s1);
+	System.out.println("TOp of Stack is "+ s1.peek());		
+	
+
+	}
+}

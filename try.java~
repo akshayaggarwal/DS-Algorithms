@@ -1,0 +1,15 @@
+class try
+{
+	int x;
+	public static void main(String args[])
+	{
+		try c = new try();
+		c.x=123;
+		try c1 = new try();
+		c1.x=234;
+		try c3 = c;
+		c3.x=99;
+		System.out.println(c3.x);
+		System.out.println(c.x);	
+	}
+}

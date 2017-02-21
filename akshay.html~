@@ -1,0 +1,10 @@
+<HTML>
+   <HEAD>
+   </HEAD>
+   
+   <BODY>
+      <div >
+         <APPLET CODE = "myapp5.class" height=300 width=300></APPLET>
+      </div>
+   </BODY>
+</HTML>

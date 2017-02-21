@@ -1,0 +1,13 @@
+class demo implements Runnable
+{
+	public void run()
+	{
+		System.out.println("hello from thread");
+	}
+	public static void main(String[] args)
+	{
+		demo obj;
+		(new Thread(obj=new demo())).start();
+	}
+}
+
