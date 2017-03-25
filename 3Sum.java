@@ -22,10 +22,10 @@ public class Solution {
                 }
                 
                 else if((nums[j]+nums[k]) < (-nums[i]))
-                    j++;
+                        while((nums[j]==nums[++j]) && (j<k));
                     
                 else
-                    k--;
+                    while((nums[k]==nums[--k]) && (j<k));
                     
                 if(j>=k)
                     break;
